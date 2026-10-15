@@ -14,8 +14,6 @@ The dataset files included in the project are UJIIndoorLoc trainingData.csv and 
 
 ## 3. Data preparation
 
-The preprocessing code handles missing access-point readings, removes access-point columns that do not vary, and creates summary features from the signal measurements. These include maximum and average RSSI, signal variation, and the number of detected access points.
-
 The project treats missing Wi-Fi access-point readings as very weak signals, removes access-point columns that do not vary, and creates seven summary measurements from the RSSI values. These include the strongest, average, and median signal, signal variation, and the number of detected access points. The model uses these summary measurements together with the remaining access-point readings.
 
 ## 4. Visual exploration
